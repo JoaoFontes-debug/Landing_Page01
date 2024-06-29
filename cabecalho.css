@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    background-color: rgba(117, 183, 187, 1);
+}
+
+
+#container {
+    margin: 0 auto;
+    width: 1616px
+}
+
+#cabecalho {
+    width: 1616px;
+    height: 700px;
+    margin: 0 auto;
+    border: solid salmon;
+    border-top: 1px;
+}
+
+/*header*/
+#apresentacao {
+    width: 1400px;
+    height: 565px;
+    margin: 0 auto;
+    border: solid salmon;
+    background-color: rgba(233, 235, 238, 1);
+}
+
+/*estilizaçao botao*/
+#apresentacao>div>button {
+    background-color: rgba(217, 70, 70, 1);
+    margin-left: 525px;
+    margin-top: 80px;
+    width: 350px;
+    height: 80px;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* estilizaçao da fonte do titulo*/
+#apresentacao>div>h1 {
+    margin: 0px;
+    font-size: 96px;
+    text-align: center;
+}
+
+/* estilizaçao da fonte do nome*/
+#apresentacao>div>p {
+    font-size: 48px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
+/*cor da barra de menu*/
+#menu {
+    background-color: rgb(51, 51, 51);
+    height: 70px;
+}
+
+/*est. alinhamento do menu */
+#menu ul li {
+    display: inline-block;
+    margin-right: 60px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+/*cor dos links, menu*/
+#menu>ul>li>a {
+    color: rgb(225, 235, 235);
+    text-decoration: none;
+}
+
+#menu ul {
+    margin-left: 1000px;
+    margin-top: 0px;
+}
+
+#img {
+    width: 420.3px;
+    height: 560.7px;
+    float: left;
+}
+
+/*posiçao do titulo*/
+#titulo {
+    margin: 100px 50px 336px 500px;
+    display: block;
+
+
+}

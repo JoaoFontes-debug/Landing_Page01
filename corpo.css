@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+#projetos>h2 {
+    font-size: 96px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    letter-spacing: 7px;
+    color: rgb(255, 255, 255);
+    margin-top: 65px;
+
+
+}
+
+#projetos {
+    border: solid salmon;
+    width: 1400px;
+    height: 565px;
+    margin-left: 110px;
+    font-family: 'inter', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+#projetos>#frente {
+    width: 350px;
+    height: 400px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: aqua;
+    margin-left: 25px;
+}
+
+.fundo {
+    width: 1616px;
+    height: 200px;
+    margin-top: 190px;
+    position: absolute;
+    background-color: aliceblue;
+}
