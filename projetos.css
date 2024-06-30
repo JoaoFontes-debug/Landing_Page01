@@ -9,16 +9,13 @@
     letter-spacing: 7px;
     color: rgb(255, 255, 255);
     margin-top: 65px;
-
-
 }
 
 #projetos {
-    border: solid salmon;
     width: 1400px;
     height: 565px;
     margin-left: 110px;
-    font-family: 'inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 100;
     font-size: 25px;
 }
@@ -33,10 +30,45 @@
     margin-left: 25px;
 }
 
+/**/
+#projetos>section>div {
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(65, 135, 131);
+}
+
+#projetos>section {
+    width: 350px;
+    height: 500px;
+    display: block;
+    float: left;
+    margin-left: 60px;
+    margin-right: 40px;
+    display: block;
+}
+
+/*barra branca*/
 .fundo {
     width: 1616px;
-    height: 200px;
+    height: 250px;
     margin-top: 190px;
     position: absolute;
     background-color: aliceblue;
+}
+
+.botao {
+    width: 200px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: rgb(213, 88, 88);
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 70px;
+    position: relative;
+    color: aliceblue;
+    border: none;
 }
