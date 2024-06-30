@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="cabecalho.css">
     <link rel="stylesheet" href="projetos.css">
     <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="contato.css">
 </head>
 
 <body>
@@ -15,9 +16,10 @@
         <header id="cabecalho">
             <nav id="menu">
                 <ul>
-                    <li> <a href="#">Início</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li> <a href="#linkTitulo">Início</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#sk">Skills</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
 
             </nav>
@@ -27,7 +29,7 @@
 
                 <div id="titulo">
                     <p>João Fontes</p>
-                    <h1>Software<br>Developer</h1>
+                    <h1 id="linkTitulo">Software<br>Developer</h1>
                     <button>Contate-me!</button>
                 </div>
 
@@ -38,7 +40,7 @@
         <div id="projetos">
             <h2>PROJETOS</h2>
             <section class="margem">
-                <div>Calculadora Simples</div>
+                <div>Projeto</div>
                 <button class="botao">Ver</button>
             </section>
 
@@ -56,7 +58,7 @@
         <div id="sk">
             <h2>SKILLS</h2>
             <div id="skills">
-                <section>
+                <section id="idioma">
                     <h3 class="idioma">Idiomas</h3>
                     <ul>
                         <li>Inglês intermediario</li>
@@ -79,6 +81,22 @@
             </div>
         </div>
 
+        <div id="contato">
+            <h3>Contate-me</h3>
+            <section>
+                <form>
+                    <label>Nome</label>
+                    <input type="text">
+
+                    <label>Email</label>
+                    <input type="text">
+
+                    <label>Detalhes do serviço</label>
+                    <textarea id="servico"></textarea>
+                </form>
+                <button id="btn">Enviar</button>
+            </section>
+        </div>
 
     </div>
 

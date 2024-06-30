@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+#contato>section {
+    width: 480px;
+    height: 600px;
+    border-radius: 15px;
+    background-color: aliceblue;
+    padding-top: 20px;
+    padding-left: 130px;
+    margin-left: 70px;
+}
+
+#contato>section>form>label,
+input {
+    display: block;
+    width: 350px;
+    height: 45px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#contato>h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    font-weight: 200;
+    font-style: italic;
+    color: aliceblue;
+    margin-left: 260px;
+
+}
+
+#contato>section>form {
+    width: 350px;
+}
+
+#contato>section>form>#servico {
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+    resize: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    padding: 0;
+
+}
+
+#contato>section>#btn {
+    background-color: rgb(213, 88, 88);
+    border-radius: 10px;
+    border-style: none;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    margin-left: 74px;
+    margin-top: 10px;
+}
