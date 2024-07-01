@@ -30,7 +30,7 @@
                 <div id="titulo">
                     <p>João Fontes</p>
                     <h1 id="linkTitulo">Software<br>Developer</h1>
-                    <button>Contate-me!</button>
+                    <button><a href="#contato">Contate-me!</a></button>
                 </div>
 
             </div>
@@ -41,17 +41,17 @@
             <h2>PROJETOS</h2>
             <section class="margem">
                 <div>Projeto</div>
-                <button class="botao">Ver</button>
+                <button class="botao"><a href="#">Ver</a></button>
             </section>
 
             <section class="frente">
                 <div>Projeto</div>
-                <button class="botao">Ver</button>
+                <button class="botao"><a href="#">Ver</a></button>
             </section>
 
             <section class="frente">
                 <div>Projeto</div>
-                <button class="botao">Ver</button>
+                <button class="botao"><a href="#">Ver</a></button>
             </section>
         </div>
 
@@ -86,7 +86,7 @@
             <section>
                 <form>
                     <label>Nome</label>
-                    <input type="text">
+                    <input type="text" id="nome">
 
                     <label>Email</label>
                     <input type="text">
@@ -94,12 +94,12 @@
                     <label>Detalhes do serviço</label>
                     <textarea id="servico"></textarea>
                 </form>
-                <button id="btn">Enviar</button>
+                <button id="btn" onclick="saudacao()"><a href="">Enviar</a></button>
             </section>
         </div>
 
     </div>
-
+    <script src="app.js"></script>
 </body>
 
 </html>

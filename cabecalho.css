@@ -44,6 +44,13 @@ body {
     border: none;
 }
 
+#apresentacao>div>button>a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
 /* estilizaçao da fonte do titulo*/
 #apresentacao>div>h1 {
     margin: 0px;
