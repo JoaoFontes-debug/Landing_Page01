@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: inter, sans-serif;    
+}
+
+img{
+    width: 10vmax;
+    margin: 15px;
+    box-shadow: 5px 5px 1px #888888;
+    border-radius: 8%;
+}
+
+
+#titulo{
+    /* border: 1px solid salmon; */
+    display: flex;
+    height: 50vmax;
+    justify-content: right;
+    align-items: center;
+    line-height: .2;
+}
+
+
+#hello{
+    font-size: .7rem;
+    
+}
+
+#Tnome{
+    font-size: 1rem;
+    letter-spacing: .1rem;  
+}
+
+#linkTitulo{
+    letter-spacing: .1rem;
+}
+
+#linha{
+    width: 100%;
+    border-top: 2px solid #959595;
+}
+
